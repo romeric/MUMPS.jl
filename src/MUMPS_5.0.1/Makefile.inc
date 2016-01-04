@@ -124,7 +124,7 @@ LIBSEQ  = -L$(topdir)/libseq -lmpiseq
 
 # DEFINE HERE YOUR BLAS LIBRARY
 
-#LIBBLAS = -lblas
+LIBBLAS = -L/opt/OpenBLAS -lopenblas
 
 # DEFINE HERE YOUR PTHREAD LIBRARY
 LIBOTHERS = -lpthread
