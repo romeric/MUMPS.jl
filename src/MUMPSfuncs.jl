@@ -1,4 +1,4 @@
-const MUMPSlibPath = "/home/patrick/Julia/v0.4/MUMPS.jl/lib/MUMPS"
+const MUMPSlibPath = "/home/roman/Julia/MUMPS.jl/lib/MUMPS"
 
 function solveMUMPS{T1,T2}(A::SparseMatrixCSC{T1}, rhs::AbstractArray{T2}, sym::Int=0,ooc::Int=0,tr::Int=0)
 
